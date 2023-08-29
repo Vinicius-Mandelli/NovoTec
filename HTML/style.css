@@ -1,0 +1,36 @@
+p{
+    color: white;
+}
+
+h1{
+    text-align:center;
+    color: white;
+}
+
+.write{
+    text-align: center;
+    color: red;
+}
+
+h2{
+    text-align:center;
+}
+
+body{
+    background-image: 
+    url(../IMG/imagem_2023-08-28_214234273.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+a{
+    color: greenyellow;
+}
+
