@@ -1,0 +1,17 @@
+body{
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+center{
+    color: orange;
+}
+
+button{
+    color: blue;
+}
+
+.gif{
+    float: right;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo Legal</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function incrementar() {
+            let contador = parseInt(document.getElementById("contador").innerText);
+            contador++;
+            document.getElementById("contador").innerText = contador;
+        }
+
+        function decrementar () {
+            let contador = parseInt(document.getElementById("contador").innerText);
+            contador--;
+            document.getElementById("contador").innerText = contador;
+        }
+    </script>
+</head>
+<body background="https://i.pinimg.com/originals/15/d6/01/15d6012850aa7900ec73520712d00687.gif">
+    <center>
+    <h1>Contador: <span id="contador">0</span></h1>
+
+    
+    <button onclick="incrementar()">Incrementar</button>
+    <button onclick="decrementar()">Decrementar</button>
+    </center>
+
+    <img src="https://media.tenor.com/6IuWl8xSe38AAAAC/aatrox-fortnite.gif">
+
+    <div class="gif">
+    <img src="giphy.gif">
+    </div>
+</body>
+</html>
