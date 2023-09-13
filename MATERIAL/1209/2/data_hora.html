@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atualizaçao de data e hora</title>
+    <link href="hora_data.css" rel="stylesheet">
+</head>
+<body>
+    <center><h1><div id="data-hora"></div></h1></center>
+
+    <center><img src="giphy.gif"></center>
+
+    <script>
+        function atualizarDataHora() {
+            const agora = new Date();
+            const dataHoraElement = document.getElementById('data-hora');
+            dataHoraElement.textContent = `Data e hora atual:
+            ${agora.toLocaleString()}`;
+        }
+
+        // chama a funcao inicialmente para exibir a data e hora atual
+        atualizarDataHora();
+
+        //atualizar a data e hora a cada segundo
+        setInterval(atualizarDataHora, 1000);
+    </script>
+</body>
+</html>
